@@ -1,0 +1,434 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #111;
+}
+.navbar .portfolio.head {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .anchortagdiv a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.navbar .anchortagdiv a:hover {
+    color: #9b59b6;
+}
+.myname {
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+.myname h2 {
+    font-size: 24px;
+}
+.myimage {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.myimage img {
+    width: 250px;
+    height: 360px;
+    border-radius: 20px;
+      border: 5px double purple ;
+    object-fit:cover;
+}
+.accounts {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.accounts a {
+    margin: 0 10px;
+}
+#nameofmine{
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+.accounts img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+.accounts img:hover {
+    transform: scale(1.1);
+}
+.cv {
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    padding: 10px 20px;
+    width: 120px;
+    background-color: #9b59b6;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.cv:hover {
+    background-color: #8e44ad;
+}
+footer {
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-top: 2px solid #9b59b6;
+}
+.footer-container {
+    width: 50%;
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+}
+.footer-container .social-links {
+    margin-bottom: 6px;
+}
+.footer-container .social-links a {
+    margin: 0 6px; 
+}
+.footer-container .social-links img {
+    width: 30px; 
+    height: 30px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+.footer-container .social-links img:hover {
+    transform: scale(1.1); 
+}
+footer p {
+    font-size: 15px;
+    margin: 0;
+    opacity: 0.7;
+}
+
+body {
+    font-family:'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+    background-color:black;
+    color:white;
+    margin:0;
+    padding:0;
+}
+.mainheading {
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    font-size:32px;
+    color:#9b59b6;
+}
+.education,.certificates {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin:20px auto;
+    width:90%;
+}
+.edu {
+    background-color:#111;
+    padding:15px 20px;
+    margin:10px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(255,255,255,0.1);
+    flex:1 1 250px;
+    text-align:center;
+}
+.edu h2 {
+    margin-bottom:10px;
+    color:#9b59b6;
+}
+.edu p {
+    font-size:14px;
+    line-height:1.6;
+    color:#ccc;
+}
+body {
+    font-family:'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,sans-serif;
+    background-color:black;
+    color:white;
+    margin:0;
+    padding:0;
+}
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 50px;
+    background-color:#111;
+}
+.navbar .portfolio.head {
+    font-size:24px;
+    font-weight:bold;
+}
+.navbar .anchortagdiv a {
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-size:16px;
+    transition:color 0.3s;
+}
+.navbar .anchortagdiv a:hover {
+    color:#9b59b6;
+}
+.mainheading {
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    font-size:32px;
+    color:#9b59b6;
+}
+.dervices {
+    display: grid;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:90%;
+    margin:20px auto;
+}
+.ser {
+    background-color:#111;
+    padding:20px;
+    margin:10px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(255,255,255,0.1);
+    flex:1 1 250px;
+    text-align:center;
+}
+.ser h2 {
+    color:#9b59b6;
+    margin-bottom:10px;
+}
+.ser p {
+    color:#ccc;
+    font-size:14px;
+    line-height:1.6;
+}
+
+h2 {
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:40px;
+    color:#9b59b6;
+    font-size:28px;
+}
+.cert-btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:10px;
+    padding:10px 20px;
+    text-align: center;
+    background-color:#9b59b6;
+    color:black;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    font-size:14px;
+    cursor:pointer;
+    transition:background-color 0.3s, transform 0.2s;
+}
+
+.cert-btn:hover {
+    background-color:#8e44ad;
+    transform:scale(1.05);
+}
+
+.certdiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width:50%;
+    gap: 40px;
+  margin:40px auto;
+  
+}
+.skill-btn {
+    align-items: center;
+    justify-content:row;
+    display: flex;
+    width: 250px;
+    margin:10px;
+    padding:50px 45px;
+    background-color:#9b59b6;
+    color:black;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+    font-size:30px;
+    text-decoration:none;
+    cursor:pointer;
+    transition:background-color 0.3s, transform 0.2s;
+}
+.skill-btn:hover {
+    background-color:#8e44ad;
+    transform:scale(1.05);
+}
+
+.cont {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #111;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(155, 89, 182, 0.3);
+    text-align: center;
+}
+.cont h2 {
+    color: #9b59b6;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.cont input,
+.cont textarea {
+    width: 90%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    background-color: #222;
+    border: 1px solid #555;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.cont input:focus,
+.cont textarea:focus {
+    border-color: #9b59b6;
+    box-shadow: 0 0 8px #9b59b6;
+}
+.cont textarea {
+    resize: none;
+    width: 90%;   
+    height: 200px; 
+    padding: 12px 15px;
+}
+.contactbutton {
+    background-color: #9b59b6;
+    color: black;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.contactbutton:hover {
+    background-color: #8e44ad;
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .navbar .anchortagdiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar .anchortagdiv a {
+        margin: 5px 0;
+    }
+
+    .education, .certificates, .dervices, .certdiv {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .edu, .ser, .skill-btn {
+        flex: 1 1 45%;
+        margin: 10px;
+    }
+
+    .skill-btn {
+        width: 45%;
+        padding: 40px 20px;
+        font-size: 24px;
+    }
+
+    .cont {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .cont input, .cont textarea, .contactbutton {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .navbar .anchortagdiv a {
+        font-size: 14px;
+        margin: 3px 0;
+    }
+
+    .edu, .ser, .skill-btn {
+        flex: 1 1 100%;
+    }
+
+    .skill-btn {
+        font-size: 20px;
+        padding: 30px 15px;
+    }
+
+    .mainheading, h2 {
+        font-size: 24px;
+    }
+
+    .cont h2 {
+        font-size: 22px;
+    }
+
+    .cont textarea {
+        height: 150px;
+    }
+}
+
+/* Small Phones */
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 8px 10px;
+    }
+  .navbar .portfolio.head {
+        font-size: 20px;
+    }
+    .navbar .anchortagdiv a {
+        font-size: 12px;
+    }
+    .skill-btn {
+        font-size: 18px;
+        padding: 25px 10px;
+    }
+    .cont h2 {
+        font-size: 20px;
+    }
+    .cont textarea {
+        height: 120px;
+    }
+    .contactbutton {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
